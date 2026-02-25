@@ -1,0 +1,25 @@
+p{
+    color: brown;
+    font-size: 50pt;
+}
+
+#p1{
+    background-color: black;
+    color: aliceblue;
+}
+
+#p2{
+    text-align: center;
+}
+
+.p3{
+    -webkit-text-stroke: 4px;
+}
+
+body{
+    background-color: rgb(109, 109, 109);
+}
+
+a:hover{
+    color: pink;
+}
