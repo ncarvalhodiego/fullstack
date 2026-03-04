@@ -1,0 +1,41 @@
+body{
+    background-color: lightgray;
+}
+
+p{
+    text-align: center;
+}
+
+.tit1{
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    display: inline;
+    color: darkgreen;
+    font-size: 55px;
+    text-align: center;
+}
+
+.sla{
+    font: bold;
+}
+
+.p{
+    color: indigo;
+}
+
+img{
+    width: 200px;
+    height: auto;
+    display: inline;
+}
+
+.javagrandao{
+    text-align: right;
+}
+
+
+.bege{
+    background-color: bisque;
+    border: solid 3px blue;
+}

@@ -1,0 +1,24 @@
+#do{border-style: dotted;}
+#da{border-style: dashed;}
+#so{border-style: solid;}
+#dou{border-style: double;}
+#gro{border-style: groove;}
+#rid{border-style: ridge;}
+#ins{border-style: inset;}
+#out{border-style: outset;}
+#nb{border-style: none;}
+#hb{border-style: hidden;}
+#mb{border-style: double solid dashed;}
+
+#ex{font-size: 15px;
+    padding: 20px;
+    margin: 20px;
+    width: 100px;
+    height: 20px;
+    border: solid 4px blue;
+    color: red;
+    box-shadow: 30px 10px cyan;
+}
+
+p{display: inline;}
+a{display: inline;}
