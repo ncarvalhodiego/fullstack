@@ -1,13 +1,12 @@
-inicial = 1
+n = 1
 soma = 1/n
-n = 0
-final = inicial + soma
 
 x = int(input("Insira um número: "))
+y = x + 1
 
-while n < x:
-    print()
+while n < y:
+    print(soma)
     soma += 1/n
     n += 1
 
-print(1 + soma)
+print(soma)
