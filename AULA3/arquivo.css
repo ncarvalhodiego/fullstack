@@ -24,6 +24,11 @@ p{
     color: indigo;
 }
 
+b{
+    text-align: center;
+    display: block;
+}
+
 img{
     width: 200px;
     height: auto;
