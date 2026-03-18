@@ -8,7 +8,7 @@ for(let i = 1; i <= 100; i+=2){
 while (i <= 100){
     console.log(i)
     i += 2
-}*/
+}
 
 //exer1
 for(let i = 1; i <= 100; i++){
@@ -41,3 +41,4 @@ for(let i = 1; i <= entrada; i++){
 console.log(prod)
 
 //exer5
+*/
