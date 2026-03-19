@@ -1,0 +1,27 @@
+#container1{
+    display: flex;
+    background-color: rgb(165, 164, 170);
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+#container1 div{
+    align-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+#container1 div img{
+    width: 150px;
+    height: 150px;
+}
+
+#container1 div p{
+    font-size: 30px;
+}
+
+#bkroxo{
+    padding: 18px;
+    background-color: rgb(106, 69, 238);
+}
