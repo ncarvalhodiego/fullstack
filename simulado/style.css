@@ -1,27 +1,82 @@
 #container1{
     display: flex;
-    background-color: rgb(165, 164, 170);
+    justify-content: center;
+    margin: 20px;
+    align-items: space-around;
+    flex-wrap: wrap;
+}
+#container1 div{
+    padding: 10px;
+}
+#container1 p{
+    color: white;
+    padding: 10px;
+}
+#container1 img{
+    height: 150px;
+    width: 150px;
+}
+
+#aboutsla{
+    background-color: rgb(111, 56, 163);
+    height: 150px;
+    width: 150px;
+}
+
+
+#links1{
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-content: space-around;
+}
+#links2{
+    display: flex;
+    justify-content: center;
+    flex: wrap;
 }
 
-#container1 div{
-    align-content: center;
+
+#barra{
+    height: 2px;
+}
+
+
+#finalzinho{
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+#friends{
+    display: flex;
+    height: 110px;
+    justify-content: center;
+}
+
+
+#imgsmeio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+p{
+    color: slateblue;
+}
+
+#divsla{
+    flex-direction: column;
+}
+
+#p1{
+    font-size: 22px;
+    margin: 0px;
+    align-self: center;
+}
+#p2{
     font-size: 30px;
-    color: white;
-}
-
-#container1 div img{
-    width: 150px;
-    height: 150px;
-}
-
-#container1 div p{
-    font-size: 30px;
-}
-
-#bkroxo{
-    padding: 18px;
-    background-color: rgb(106, 69, 238);
+    margin: 0px;
 }
