@@ -16,7 +16,6 @@ body{
 header{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
     gap: 30px;
     padding: 40px;
@@ -38,7 +37,6 @@ section p{
 
 nav{
     display: flex;
-    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -58,33 +56,33 @@ button:hover{
     border-radius: 20px;
 }
 
-.caixa{
-    background-color: rgb(198, 228, 255);
-    width: 80%;
-    margin: auto;
-    border: 5px solid rgb(70, 123, 169);
-    padding: 40px;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 15px;
-    max-width: 1200px;
-}
-
-.caixa h2{
-    color: rgb(0, 0, 0);
-    font-size: 50px;
-    margin-bottom: 40px;
-}
-
-footer{
-    margin-top: 50px;
-    text-align: center;
-    padding: 20px;
-    color: rgb(124, 178, 70);
-    line-height: 11.5px;
-}
-
 .sepuder{
     margin-left: 24px;
     transform: scaleX(1.22);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+main div{
+    background-color: aliceblue;
+    margin: 40px;
+    padding: 40px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 290px;
+}
+
+main img{
+    height: auto;
+    width: 200px;
+    border-radius: 60px;
+}
+
+main h2{
+    padding: 10px;
 }
