@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lilita+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+h1{
+    color:aliceblue;
+    font-size: 70px;
+    text-shadow:
+    5px 0 black,
+    -5px 0 grey;
+    line-height: 52px;
+}
+
+section p{
+    font-size: 25px;
+    line-height: 30px;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+}
+
+button{
+    font-family: 'Bebas Neue', static;
+    font-size: 35px;
+    background-color: black;
+    color: white;
+    border: 3px solid rgb(0, 195, 255);
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(0, 195, 255);
+    color: black;
+    border-radius: 20px;
+}
+
+.sepuder{
+    margin-left: 24px;
+    transform: scaleX(1.22);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    line-height: 20px;
+}
+
+main div{
+    background-color: aliceblue;
+    margin: 40px;
+    padding: 40px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 290px;
+}
+
+main img{
+    height: auto;
+    width: 200px;
+    border-radius: 60px;
+}
+
+main h2{
+    padding: 10px;
+}
+
+body    {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.jogoContainer {
+    width: 1000px;
+    height: 600px;
+    border: 4px rgb(38, 38, 137);
+    background-color: rgb(9, 9, 81);
+}
