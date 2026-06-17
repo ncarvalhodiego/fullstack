@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1>Lista de convidados da FEI</h1>
+    <img src="/convidados.png" alt="">
+    <h2>Adicionar convidado: </h2>
+
+    <form action="/salvar" method="post">
+        <div id="skibidi">
+            <p>Nome do convidado:<input type="text" name="nomep"></p>
+            <p>Quantidade de acompanhantes:<input type="number" name="numerop"></p>
+            <button>Enviar</button>
+        </div>
+    </form>
+
+    <br><br>
+    <h2>Lista de convidados:</h2>
+    <br>
+    
+<ul>
+<% pessoas.forEach(function(item){ %>
+
+    <li>
+        <%= item.nome %>  -  convidados: <%= item.numero %>
+    </li>
+
+<% }) %>
+<p>Total: <%= total %> convidados</p>
+</ul>
+
+    <br>
+</body>
+</html>
